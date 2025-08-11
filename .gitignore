@@ -1,0 +1,23 @@
+# Local development files
+.env
+.env*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/dist
+/out
+
+# Dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+
+# Presentation files
+PRESENTATION_SCRIPT.txt
+PERFORMANCE_REVIEW_NOTES.txt
