@@ -33,4 +33,7 @@ A complete travel planning application where users can:
 - Receive cost breakdowns and visual calendars  
 - Share plans publicly or with friends  
 
+![Demo Image1](https://github.com/Nxrnoob/odoo-Hackathon-2025-Team-SMS/blob/master/globe-trotter/src/assets/Demo1.jpg)
+![Demo Image2](https://github.com/Nxrnoob/odoo-Hackathon-2025-Team-SMS/blob/master/globe-trotter/src/assets/Demo2.jpg)
+
 ---
