@@ -39,4 +39,7 @@ A complete travel planning application where users can:
 ## Demo Img-2
 ![Demo Image2](https://github.com/Nxrnoob/odoo-Hackathon-2025-Team-SMS/blob/master/globe-trotter/src/assets/Demo2.jpg)
 
+## Video Presentation
+[View live demo]([https://username.github.io/repo-name/](https://github.com/Nxrnoob/odoo-Hackathon-2025-Team-SMS/blob/master/Project%20Presentation.mp4))
+
 ---
