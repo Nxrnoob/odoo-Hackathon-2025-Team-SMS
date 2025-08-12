@@ -7,7 +7,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Container } from 'react-bootstrap';
 import axios from 'axios';
-
+//as the same file is a CalendarView component for a React application, it displays a calendar with events fetched from an API. It uses the react-big-calendar library for rendering the calendar and moment.js for date handling. The component includes a header and footer for consistent layout across the application.
 const localizer = momentLocalizer(moment);
 
 const CalendarView: React.FC = () => {

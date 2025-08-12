@@ -10,7 +10,7 @@ interface User {
   trips: number;
   status: 'Active' | 'Suspended';
 }
-
+//here we are creating a UserManagement component that fetches and displays users in a table format with options to view, edit, or delete each user.
 const UserManagement: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
 

@@ -10,7 +10,7 @@ interface AnalyticsData {
     popularDestinations: { name: string; value: number }[];
     userDemographics: { name: string; value: number }[];
 }
-
+//this is a React component for displaying analytics data in a dashboard format
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF'];
 
 const AnalyticsDashboard: React.FC = () => {

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Container, Form, Button, Card, Alert } from 'react-bootstrap';
 import axios from 'axios';
-
+//as this file is a Login component for a React application, it provides a form for users to log in with their email and password. Upon successful login, it stores the user data in local storage and redirects them to their profile or admin page based on their role.
 const Login: React.FC = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

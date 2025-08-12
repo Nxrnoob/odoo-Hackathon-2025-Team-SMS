@@ -9,7 +9,7 @@ interface Trip {
   user: string;
   duration: string;
 }
-
+//from this file, we are creating a TripManagement component that fetches and displays trips in a table format with options to view or delete each trip.
 const TripManagement: React.FC = () => {
   const [trips, setTrips] = useState<Trip[]>([]);
 

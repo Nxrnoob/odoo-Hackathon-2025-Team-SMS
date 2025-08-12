@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import axios from 'axios';
 import moment from 'moment';
-
+//in this file we are creating a CreateTrip component that allows users to plan a new trip by entering details such as destination, start date, and end date. It validates the input and submits the data to an API, redirecting the user to the itinerary builder upon successful creation.
 const CreateTrip: React.FC = () => {
     const [user, setUser] = useState<any | null>(null);
     const [destination, setDestination] = useState('');

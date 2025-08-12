@@ -50,3 +50,4 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+// as this file is a footer component for a React application, it provides a consistent footer layout with links and branding for the GlobeTrotter application.

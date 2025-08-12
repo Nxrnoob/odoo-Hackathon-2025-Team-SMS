@@ -71,3 +71,4 @@ const Community: React.FC = () => {
 };
 
 export default Community;
+// This component represents a community page where users can share posts about their travel experiences. It fetches posts from an API and displays them in a card format, allowing users to see the content, user information, and timestamps. The component includes a form for users to create new posts.

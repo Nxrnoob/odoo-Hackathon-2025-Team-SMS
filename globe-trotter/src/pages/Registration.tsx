@@ -10,7 +10,7 @@ const Registration: React.FC = () => {
     const [error, setError] = useState<string | null>(null);
     const [success, setSuccess] = useState<string | null>(null);
     const navigate = useNavigate();
-
+//this shows Registration component that allows users to create a new account by providing their name, email, and password. It handles form submission, validates input, and displays success or error messages based on the registration outcome.
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         setError(null);

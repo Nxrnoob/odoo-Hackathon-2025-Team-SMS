@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import axios from 'axios';
-
+//as therefore this file is a TripListing component that displays a list of trips planned by the user, allowing them to view itineraries or cancel trips. It fetches trip data from an API and handles loading states and errors gracefully.
 interface Trip {
     id: number;
     destination: string;

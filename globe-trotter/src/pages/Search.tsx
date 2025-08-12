@@ -12,7 +12,7 @@ interface Poi {
     pictures?: string[];
     tags?: string[];
 }
-
+//by creating a Search component that allows users to search for points of interest (POIs) in a specific city, displaying results in a card format with options to view details.
 const Search: React.FC = () => {
     const [searchTerm, setSearchTerm] = useState('London'); // Default search term
     const [results, setResults] = useState<Poi[]>([]);

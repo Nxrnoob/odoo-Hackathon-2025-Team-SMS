@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { FaPlus, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-
+//here we are creating a LandingPage component that serves as the main entry point for the application, featuring a carousel of images, a search bar, and links to popular destinations and previous trips. It encourages users to plan new trips and explore various travel options.
 const LandingPage: React.FC = () => {
   const floatingButtonStyle: React.CSSProperties = {
     position: 'fixed',

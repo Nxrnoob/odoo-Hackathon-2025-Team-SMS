@@ -19,7 +19,7 @@ interface Poi {
     category: string;
     tags: string[];
 }
-
+// This component allows users to build an itinerary for a specific trip by searching for points of interest (POIs) and adding them to their itinerary.
 const BuildItinerary: React.FC = () => {
     const { tripId } = useParams<{ tripId: string }>();
     const navigate = useNavigate();

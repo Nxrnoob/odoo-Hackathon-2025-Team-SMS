@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-
+//from this file is a UserProfile component that displays the user's profile information, including their name, email, and a list of trips they have planned. It allows users to view details of each trip or cancel them if needed. The component fetches user data from local storage and trip data from an API.
 interface User {
     id: number;
     name: string;

@@ -52,3 +52,4 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+// as the same file is a header component for a React application, it provides navigation links and user authentication options for the GlobeTrotter application. It uses React Router for navigation and Bootstrap for styling.

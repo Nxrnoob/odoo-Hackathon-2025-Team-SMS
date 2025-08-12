@@ -1,3 +1,4 @@
+//on this file, we are creating an AdminPanel component that serves as the main dashboard for administrators, allowing them to manage users and trips, and view analytics.
 import React, { useState, useEffect } from 'react';
 import { Container, Nav, Card } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';

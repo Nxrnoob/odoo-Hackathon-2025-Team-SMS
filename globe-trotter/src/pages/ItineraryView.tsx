@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { FaMapMarkerAlt, FaDollarSign, FaClipboardList, FaWallet } from 'react-icons/fa';
 import axios from 'axios';
-
+//where this file is a React component that displays the itinerary for a specific trip, including details about the trip and a list of scheduled activities grouped by day. It fetches data from an API and handles loading states and errors gracefully.
 interface Trip {
     id: number;
     destination: string;
