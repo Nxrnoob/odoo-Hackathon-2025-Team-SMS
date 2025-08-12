@@ -12,9 +12,9 @@ Odoo-Hackathon-2025 by Team SMS - 184
 
 | Name               | Role                          | GitHub / LinkedIn |
 |--------------------|------------------------------|-------------------|
-| Santhosh Kumar R   | Team Lead / Developer         | [SKR-project](https://github.com/SKR-project) |
-| Subash G S         | Backend Developer             | [Nxrnoob](https://github.com/Nxrnoob) |
-| Manoj Kumar S      | Frontend Developer            | [OG-Manojkumar](https://github.com/OG-Manojkumar) |
+| Santhosh Kumar R   | Frontend Developer         | [SKR-project](https://github.com/SKR-project) |
+| Subash G S         | Team Lead             | [Nxrnoob](https://github.com/Nxrnoob) |
+| Manoj Kumar S      | Backend Developer            | [OG-Manojkumar](https://github.com/OG-Manojkumar) |
 
 ---
 
@@ -32,5 +32,11 @@ A complete travel planning application where users can:
 - Discover activities and destinations through search  
 - Receive cost breakdowns and visual calendars  
 - Share plans publicly or with friends  
+
+## Demo Img-1
+![Demo Image1](https://github.com/Nxrnoob/odoo-Hackathon-2025-Team-SMS/blob/master/globe-trotter/src/assets/Demo1.jpg)
+
+## Demo Img-2
+![Demo Image2](https://github.com/Nxrnoob/odoo-Hackathon-2025-Team-SMS/blob/master/globe-trotter/src/assets/Demo2.jpg)
 
 ---

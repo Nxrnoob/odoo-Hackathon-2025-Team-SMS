@@ -26,7 +26,7 @@ app.post('/api/register', (req, res) => {
         res.status(500).json({ error: 'Failed to register user' });
     }
 });
-// User Login
+// User Login and Authentication
 app.post('/api/login', (req, res) => {
     try {
         const { email, password } = req.body;
@@ -47,7 +47,7 @@ app.post('/api/login', (req, res) => {
         res.status(500).json({ error: 'Failed to login' });
     }
 });
-// User Management
+// User Management and Admin Features
 app.get('/api/users', (req, res) => {
     try {
         const stmt = db.prepare('SELECT Users.*, COUNT(Trips.id) as tripCount FROM Users LEFT JOIN Trips ON Users.id = Trips.user_id GROUP BY Users.id');
