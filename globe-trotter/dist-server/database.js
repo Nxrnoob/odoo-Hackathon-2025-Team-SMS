@@ -1,3 +1,4 @@
+//import statements
 import Database from 'better-sqlite3';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -104,3 +105,4 @@ export const initializeDatabase = () => {
 // Close the database connection when the process exits
 process.on('exit', () => db.close());
 //# sourceMappingURL=database.js.map
+//Db queries and operations can be added here as needed

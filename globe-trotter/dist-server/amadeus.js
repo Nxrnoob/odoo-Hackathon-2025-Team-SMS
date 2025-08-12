@@ -6,4 +6,4 @@ const amadeus = new Amadeus({
     clientSecret: 'cc8AxnHCeF5lFlAg',
 });
 export default amadeus;
-//# sourceMappingURL=amadeus.js.map
+// This code initializes the Amadeus API client with the provided credentials.

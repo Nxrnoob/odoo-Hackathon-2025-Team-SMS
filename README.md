@@ -12,9 +12,9 @@ Odoo-Hackathon-2025 by Team SMS - 184
 
 | Name               | Role                          | GitHub / LinkedIn |
 |--------------------|------------------------------|-------------------|
-| Santhosh Kumar R   | Team Lead / Developer         | [SKR-project](https://github.com/SKR-project) |
-| Subash G S         | Backend Developer             | [Nxrnoob](https://github.com/Nxrnoob) |
-| Manoj Kumar S      | Frontend Developer            | [OG-Manojkumar](https://github.com/OG-Manojkumar) |
+| Santhosh Kumar R   | Frontend Developer         | [SKR-project](https://github.com/SKR-project) |
+| Subash G S         | Team Lead             | [Nxrnoob](https://github.com/Nxrnoob) |
+| Manoj Kumar S      | Backend Developer            | [OG-Manojkumar](https://github.com/OG-Manojkumar) |
 
 ---
 
