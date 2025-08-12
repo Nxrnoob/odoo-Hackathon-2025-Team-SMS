@@ -1,0 +1,58 @@
+Project: GlobeTrotter
+Tagline: "Your companion for planning, sharing, and reliving your travel adventures."
+
+## Current Status
+
+The GlobeTrotter application is a dynamic full-stack web application with a persistent backend and database. Recent work has focused on implementing core features like user-specific trip management and admin-level functionality, alongside significant bug fixing to ensure server stability and a smoother user experience.
+
+## Recent Updates (August 12, 2025)
+
+-   **Feature: User-Specific Trips:**
+    -   The user profile page has been enhanced to show only the trips created by the currently logged-in user.
+    -   A new, secure API endpoint (`/api/users/:id/trips`) was created on the backend to support this feature.
+
+-   **Feature: Admin Role and Authentication:**
+    -   A `role` column was added to the `Users` table in the database to distinguish between regular users and administrators.
+    -   A persistent admin user (`admin@globetrotter.com`) is now seeded into the database on startup.
+    -   The login flow now redirects users with the 'admin' role to a dedicated `/admin` panel, which is now protected from unauthorized access.
+
+-   **Feature: Enhanced Landing Page:**
+    -   The placeholder images on the landing page carousel have been replaced with high-quality, travel-themed banner images to improve the visual appeal of the application.
+
+-   **Critical Bug Fix (Trip Creation & Server Stability):**
+    -   **Problem:** A persistent "500 Internal Server Error" was occurring when users attempted to create a new trip, alongside server stability issues causing frequent crashes and CORS errors.
+    -   **Root Cause:** The primary issue was a `FOREIGN KEY constraint failed` error caused by the server using an inconsistent, relative path for the database file. This was compounded by silent server crashes and incorrect SQL syntax.
+    -   **Solution:** The database path was made absolute to ensure consistency. The development server was configured to use `nodemon` for stability and automatic restarts. The database was reset to resolve data integrity issues, and incorrect SQL syntax was fixed.
+    -   **Impact:** The trip creation feature is now stable, and the development server is more robust.
+
+## Technology Stack
+
+The project is built using a modern full-stack architecture:
+
+### Frontend
+- **Framework:** React (v19) with TypeScript for type-safe code.
+- **Build Tool:** Vite for fast development and optimized builds.
+- **Styling:** Bootstrap and React-Bootstrap for core components.
+- **Routing:** React Router DOM for client-side navigation.
+- **Icons:** React Icons for a consistent visual language.
+
+### Backend
+- **Runtime:** Node.js with Express.js for creating a robust and scalable API.
+- **Language:** TypeScript, ensuring type safety and consistency with the frontend.
+- **Database:** SQLite, managed by the `better-sqlite3` library.
+- **Development:** `nodemon` is used for robust server management during development.
+
+## Implemented Features
+
+1.  **Full User Authentication with Roles.**
+2.  **Persistent Data Storage with a stable, absolute path.**
+3.  **CRUD operations for Trips, specific to the logged-in user.**
+4.  **Dynamic User Profiles with trip listings.**
+5.  **Protected Admin Dashboard with User, Trip, and Analytics views.**
+
+## Next Steps
+
+The immediate priority is to replace the remaining mock data with live data from the database. This includes:
+- The Community page posts.
+- The Analytics dashboard metrics.
+- The Calendar view events.
